@@ -18,5 +18,12 @@ public class DemoController {
 		return "welcome";
 		
 	}
+	
+
+	@GetMapping("/student")
+	public String student() {
+		return "student";
+		
+	}
 
 }
